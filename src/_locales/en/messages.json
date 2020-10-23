@@ -1,0 +1,11 @@
+{
+    "extensionName": {
+        "message": "Disable Google People also search for",
+        "description": "Disables Google's 'People also search for' feature when returing back to search results."
+    },
+
+    "extensionDescription": {
+        "message": "Demonstrates the menus API.",
+        "description": "Description of the add-on."
+    }
+}

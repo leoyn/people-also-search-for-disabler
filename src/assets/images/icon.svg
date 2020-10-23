@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <filter id="Rectangle_1" x="13" y="93" width="486" height="332" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.608"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect width="375" height="134" fill="none"/>
+    </clipPath>
+    <filter id="Union_1" x="391.819" y="153.314" width="97.973" height="114.736" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Icon">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="Icon" clip-path="url(#clip-Icon)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="26.5" cy="26.5" r="26.5" transform="translate(398 143)" fill="#de003c" opacity="0.086"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1)">
+      <g id="Rectangle_1-2" data-name="Rectangle 1" transform="translate(42 119)" fill="#fff" stroke="#de003c" stroke-linejoin="round" stroke-width="20" opacity="0.294">
+        <rect width="428" height="274" rx="23" stroke="none"/>
+        <rect x="-10" y="-10" width="448" height="294" rx="33" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="156" height="39" transform="translate(69 149)" fill="#de003c"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-14 91.956)">
+      <line id="Line_1" data-name="Line 1" x2="26.044" y2="26.044" transform="translate(425.5 64.5)" fill="none" stroke="#de003c" stroke-width="5"/>
+      <line id="Line_2" data-name="Line 2" x1="26.044" y2="26.044" transform="translate(425.5 64.5)" fill="none" stroke="#de003c" stroke-width="5"/>
+    </g>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(69 226)" opacity="0.734" clip-path="url(#clip-path)">
+      <g transform="translate(-67 -220)">
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="170" height="27" transform="translate(67 220)" fill="#de003c"/>
+      </g>
+      <g transform="translate(137 -220)">
+        <rect id="Rectangle_3-2" data-name="Rectangle 3" width="170" height="27" transform="translate(67 220)" fill="#de003c"/>
+      </g>
+      <g transform="translate(-67 -167)">
+        <rect id="Rectangle_3-3" data-name="Rectangle 3" width="170" height="27" transform="translate(67 220)" fill="#de003c"/>
+      </g>
+      <g transform="translate(137 -167)">
+        <rect id="Rectangle_3-4" data-name="Rectangle 3" width="170" height="27" transform="translate(67 220)" fill="#de003c"/>
+      </g>
+      <g transform="translate(-67 -114)">
+        <rect id="Rectangle_3-5" data-name="Rectangle 3" width="170" height="27" transform="translate(67 220)" fill="#de003c"/>
+      </g>
+      <g transform="translate(137 -114)">
+        <rect id="Rectangle_3-6" data-name="Rectangle 3" width="170" height="27" transform="translate(67 220)" fill="#de003c"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Union_1)">
+      <path id="Union_1-2" data-name="Union 1" d="M18.405,80.212V55.434H0L24.407,0l21.75,55.434H27.405V80.212Z" transform="translate(403.31 181.8) rotate(-25)" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
